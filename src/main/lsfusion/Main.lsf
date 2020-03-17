@@ -127,5 +127,5 @@ FORM MainFormSingle 'Турнирная таблица'
 
 NAVIGATOR {
     NEW MainForm FIRST;
-    NEW Teams;
+    NEW Teams FIRST;   
 }

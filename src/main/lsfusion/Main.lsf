@@ -30,7 +30,7 @@ FORM dialogTeam 'Команда'
     LIST Team OBJECT o
 ;
  
-//CONSTRAINT NOT name(Team t) AND t IS Team MESSAGE 'Название команды должно быть заполнено';
+CONSTRAINT NOT name(Team t) AND t IS Team MESSAGE 'Название команды должно быть заполнено';
 
 CLASS Game 'Игра';
 

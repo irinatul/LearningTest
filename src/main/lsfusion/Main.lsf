@@ -1,6 +1,6 @@
 MODULE Main;
 
-REQUIRE System;
+REQUIRE MasterData, System;
 
 CLASS Team 'Команда';
 
@@ -126,6 +126,9 @@ FORM MainFormSingle 'Турнирная таблица'
 ;
 
 NAVIGATOR {
+    masterData{
+    NEW Teams FIRST;
+    }
     NEW MainForm FIRST;
-    NEW Teams FIRST;   
+       
 }

@@ -4,7 +4,33 @@ REQUIRE System;
 
 CLASS Team 'Команда';
 
-name 'Название команды' = DATA STRING[30] (Team) IN base;
+name 'Название команды' = DATA STRING[30] (Team) IN base NONULL;
+
+TABLE Team (Team);
+
+FORM Team 'Команда'
+    OBJECTS t = Team PANEL
+    PROPERTIES(t) name
+    
+    EDIT Team OBJECT t
+;
+
+defaultIndex 'Номер п/п' (Team o) = PARTITION SUM 1 IF o IS Team ORDER o CHARWIDTH 4;
+     
+FORM Teams 'Команды'
+    OBJECTS o = Team
+    PROPERTIES(o) READONLY defaultIndex, name
+    PROPERTIES(o) NEWSESSION NEW, EDIT, DELETE
+;
+
+FORM dialogTeam 'Команда'
+    OBJECTS o = Team
+    PROPERTIES(o) READONLY name
+    
+    LIST Team OBJECT o
+;
+ 
+//CONSTRAINT NOT name(Team t) AND t IS Team MESSAGE 'Название команды должно быть заполнено';
 
 CLASS Game 'Игра';
 
@@ -101,4 +127,5 @@ FORM MainFormSingle 'Турнирная таблица'
 
 NAVIGATOR {
     NEW MainForm FIRST;
+    NEW Teams;
 }

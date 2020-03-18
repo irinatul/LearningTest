@@ -1,5 +1,7 @@
 MODULE Main;
 
+//Просто комментарий
+
 REQUIRE MasterData, System;
 
 CLASS Team 'Команда';

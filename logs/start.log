@@ -1,0 +1,230 @@
+18 Mar 2020 12:15:12,440  INFO StartLogger - Server is starting...
+18 Mar 2020 12:15:13,832  INFO StartLogger - Logics instance is starting...
+18 Mar 2020 12:15:13,840  INFO StartLogger - Initializing BusinessLogics
+18 Mar 2020 12:15:13,847  INFO StartLogger - Initializing localizer
+18 Mar 2020 12:15:13,847  INFO StartLogger - Creating modules
+18 Mar 2020 12:15:14,269  INFO StartLogger - Initializing dependencies
+18 Mar 2020 12:15:14,416  INFO StartLogger - Initializing modules order
+18 Mar 2020 12:15:14,419  INFO StartLogger - Initializing metacodes and classes
+18 Mar 2020 12:15:15,108  INFO StartLogger - Initializing object class
+18 Mar 2020 12:15:15,117  INFO StartLogger - Initializing tables
+18 Mar 2020 12:15:15,325  INFO StartLogger - Initializing class tables
+18 Mar 2020 12:15:15,436  INFO StartLogger - Initializing full tables with one key
+18 Mar 2020 12:15:15,437  INFO StartLogger - Initializing main logic
+18 Mar 2020 12:15:15,450  INFO StartLogger - Initializing main logic for module : #1 of 42 System (actual: 1)
+18 Mar 2020 12:15:16,641  INFO StartLogger - Initializing main logic for module : #2 of 42 Geo (actual: 34)
+18 Mar 2020 12:15:16,644  INFO StartLogger - Initializing main logic for module : #3 of 42 Sound (actual: 32)
+18 Mar 2020 12:15:16,646  INFO StartLogger - Initializing main logic for module : #4 of 42 Printer (actual: 16)
+18 Mar 2020 12:15:16,649  INFO StartLogger - Initializing main logic for module : #5 of 42 DefaultData (actual: 13)
+18 Mar 2020 12:15:16,658  INFO StartLogger - Initializing main logic for module : #6 of 42 Authentication (actual: 2)
+18 Mar 2020 12:15:16,668  INFO StartLogger - Initializing main logic for module : #7 of 42 Time (actual: 4)
+18 Mar 2020 12:15:16,671  INFO StartLogger - Initializing main logic for module : #8 of 42 MasterData (actual: 6)
+18 Mar 2020 12:15:16,681  INFO StartLogger - Initializing main logic for module : #9 of 42 Numerator (actual: 18)
+18 Mar 2020 12:15:16,788  INFO StartLogger - Initializing main logic for module : #10 of 42 Main (actual: 42)
+18 Mar 2020 12:15:16,789  INFO StartLogger - Initializing main logic for module : #11 of 42 Integration (actual: 26)
+18 Mar 2020 12:15:16,792  INFO StartLogger - Initializing main logic for module : #12 of 42 Image (actual: 17)
+18 Mar 2020 12:15:16,803  INFO StartLogger - Initializing main logic for module : #13 of 42 OpenCV (actual: 39)
+18 Mar 2020 12:15:16,812  INFO StartLogger - Initializing main logic for module : #14 of 42 Com (actual: 29)
+18 Mar 2020 12:15:16,822  INFO StartLogger - Initializing main logic for module : #15 of 42 ProcessUtils (actual: 33)
+18 Mar 2020 12:15:17,031  INFO StartLogger - Initializing main logic for module : #16 of 42 Utils (actual: 7)
+18 Mar 2020 12:15:17,162  INFO StartLogger - Initializing main logic for module : #17 of 42 Historizable (actual: 22)
+18 Mar 2020 12:15:17,165  INFO StartLogger - Initializing main logic for module : #18 of 42 Reflection (actual: 3)
+18 Mar 2020 12:15:17,253  INFO StartLogger - Initializing main logic for module : #19 of 42 ProcessMonitor (actual: 20)
+18 Mar 2020 12:15:17,266  INFO StartLogger - Initializing main logic for module : #20 of 42 Hierarchy (actual: 23)
+18 Mar 2020 12:15:17,274  INFO StartLogger - Initializing main logic for module : #21 of 42 Schedule (actual: 40)
+18 Mar 2020 12:15:17,275  INFO StartLogger - Initializing main logic for module : #22 of 42 Document (actual: 19)
+18 Mar 2020 12:15:17,325  INFO StartLogger - Initializing main logic for module : #23 of 42 I18n (actual: 28)
+18 Mar 2020 12:15:17,448  INFO StartLogger - Initializing main logic for module : #24 of 42 Excel (actual: 24)
+18 Mar 2020 12:15:17,527  INFO StartLogger - Initializing main logic for module : #25 of 42 Fax (actual: 41)
+18 Mar 2020 12:15:17,690  INFO StartLogger - Initializing main logic for module : #26 of 42 Email (actual: 9)
+18 Mar 2020 12:15:17,690  INFO StartLogger - Initializing main logic for module : #27 of 42 Messenger (actual: 30)
+18 Mar 2020 12:15:17,704  INFO StartLogger - Initializing main logic for module : #28 of 42 SystemEvents (actual: 5)
+18 Mar 2020 12:15:17,742  INFO StartLogger - Initializing main logic for module : #29 of 42 Skype (actual: 36)
+18 Mar 2020 12:15:17,766  INFO StartLogger - Initializing main logic for module : #30 of 42 Slack (actual: 38)
+18 Mar 2020 12:15:17,870  INFO StartLogger - Initializing main logic for module : #31 of 42 Viber (actual: 35)
+18 Mar 2020 12:15:17,882  INFO StartLogger - Initializing main logic for module : #32 of 42 Telegram (actual: 31)
+18 Mar 2020 12:15:17,953  INFO StartLogger - Initializing main logic for module : #33 of 42 Word (actual: 8)
+18 Mar 2020 12:15:17,955  INFO StartLogger - Initializing main logic for module : #34 of 42 Security (actual: 10)
+18 Mar 2020 12:15:18,209  INFO StartLogger - Initializing main logic for module : #35 of 42 Service (actual: 11)
+18 Mar 2020 12:15:18,344  INFO StartLogger - Initializing main logic for module : #36 of 42 Scheduler (actual: 12)
+18 Mar 2020 12:15:18,345  INFO StartLogger - Initializing main logic for module : #37 of 42 Chat (actual: 27)
+18 Mar 2020 12:15:18,345  INFO StartLogger - Initializing main logic for module : #38 of 42 EvalScript (actual: 37)
+18 Mar 2020 12:15:18,352  INFO StartLogger - Initializing main logic for module : #39 of 42 Profiler (actual: 25)
+18 Mar 2020 12:15:18,403  INFO StartLogger - Initializing main logic for module : #40 of 42 SQLUtils (actual: 21)
+18 Mar 2020 12:15:18,481  INFO StartLogger - Initializing main logic for module : #41 of 42 SchedulerDefaultData (actual: 14)
+18 Mar 2020 12:15:18,498  INFO StartLogger - Initializing main logic for module : #42 of 42 Backup (actual: 15)
+18 Mar 2020 12:15:18,710  INFO StartLogger - Checking for duplicate elements
+18 Mar 2020 12:15:18,746  INFO StartLogger - Filling implicit cases
+18 Mar 2020 12:15:18,749  INFO StartLogger - Initializing abstract properties
+18 Mar 2020 12:15:18,751  INFO StartLogger - Finalizing abstract actions
+18 Mar 2020 12:15:18,842  INFO StartLogger - Initializing class aggr props
+18 Mar 2020 12:15:18,842  INFO StartLogger - Checking abstract
+18 Mar 2020 12:15:18,846  INFO StartLogger - Initializing fields for data and materialized properties
+18 Mar 2020 12:15:18,956  INFO StartLogger - Looking for recursions in abstract actions / properties
+18 Mar 2020 12:15:19,001  INFO StartLogger - Initializing reflection events
+18 Mar 2020 12:15:19,001  INFO StartLogger - Finalizing navigator elements
+18 Mar 2020 12:15:19,001  INFO StartLogger - Setup drill-down
+18 Mar 2020 12:15:19,007  INFO StartLogger - Initializing indices
+18 Mar 2020 12:15:19,015  INFO StartLogger - Setup property policy
+18 Mar 2020 12:15:19,205  INFO StartLogger - Setup action policy
+18 Mar 2020 12:15:19,206  INFO StartLogger - Showing dependencies
+18 Mar 2020 12:15:19,593 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:199)
+	at lsfusion.server.physics.admin.reflection.controller.init.InitReflectionEventsTask.run(InitReflectionEventsTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:143)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:101)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:465)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:536)
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:520)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.ensureDB(PostgreDataAdapter.java:74)
+	at lsfusion.server.data.sql.adapter.DataAdapter.ensure(DataAdapter.java:68)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:187)
+	... 8 more
+18 Mar 2020 12:15:19,596  INFO StartLogger - Error starting server, server will be stopped.
+18 Mar 2020 12:15:19,596  INFO StartLogger - Server is stopping...
+18 Mar 2020 12:15:19,597  INFO StartLogger - Logics instance is stopping...
+18 Mar 2020 12:15:19,597  INFO StartLogger - Logics instance has stopped...
+18 Mar 2020 12:15:19,598  INFO StartLogger - Server has stopped...
+18 Mar 2020 12:15:40,184  INFO StartLogger - Server is starting...
+18 Mar 2020 12:15:41,720  INFO StartLogger - Logics instance is starting...
+18 Mar 2020 12:15:41,731  INFO StartLogger - Initializing BusinessLogics
+18 Mar 2020 12:15:41,744  INFO StartLogger - Initializing localizer
+18 Mar 2020 12:15:41,747  INFO StartLogger - Creating modules
+18 Mar 2020 12:15:42,283  INFO StartLogger - Initializing dependencies
+18 Mar 2020 12:15:42,393  INFO StartLogger - Initializing modules order
+18 Mar 2020 12:15:42,396  INFO StartLogger - Initializing metacodes and classes
+18 Mar 2020 12:15:43,044  INFO StartLogger - Initializing object class
+18 Mar 2020 12:15:43,048  INFO StartLogger - Initializing tables
+18 Mar 2020 12:15:43,160  INFO StartLogger - Initializing class tables
+18 Mar 2020 12:15:43,275  INFO StartLogger - Initializing full tables with one key
+18 Mar 2020 12:15:43,277  INFO StartLogger - Initializing main logic
+18 Mar 2020 12:15:43,285  INFO StartLogger - Initializing main logic for module : #1 of 42 System (actual: 1)
+18 Mar 2020 12:15:44,290  INFO StartLogger - Initializing main logic for module : #2 of 42 Time (actual: 4)
+18 Mar 2020 12:15:44,290  INFO StartLogger - Initializing main logic for module : #3 of 42 Integration (actual: 26)
+18 Mar 2020 12:15:44,292  INFO StartLogger - Initializing main logic for module : #4 of 42 DefaultData (actual: 13)
+18 Mar 2020 12:15:44,294  INFO StartLogger - Initializing main logic for module : #5 of 42 Authentication (actual: 2)
+18 Mar 2020 12:15:44,304  INFO StartLogger - Initializing main logic for module : #6 of 42 Geo (actual: 34)
+18 Mar 2020 12:15:44,310  INFO StartLogger - Initializing main logic for module : #7 of 42 Printer (actual: 16)
+18 Mar 2020 12:15:44,326  INFO StartLogger - Initializing main logic for module : #8 of 42 MasterData (actual: 6)
+18 Mar 2020 12:15:44,339  INFO StartLogger - Initializing main logic for module : #9 of 42 Numerator (actual: 18)
+18 Mar 2020 12:15:44,436  INFO StartLogger - Initializing main logic for module : #10 of 42 Main (actual: 42)
+18 Mar 2020 12:15:44,489  INFO StartLogger - Initializing main logic for module : #11 of 42 Image (actual: 17)
+18 Mar 2020 12:15:44,495  INFO StartLogger - Initializing main logic for module : #12 of 42 OpenCV (actual: 39)
+18 Mar 2020 12:15:44,511  INFO StartLogger - Initializing main logic for module : #13 of 42 Com (actual: 29)
+18 Mar 2020 12:15:44,512  INFO StartLogger - Initializing main logic for module : #14 of 42 Sound (actual: 32)
+18 Mar 2020 12:15:44,513  INFO StartLogger - Initializing main logic for module : #15 of 42 ProcessUtils (actual: 33)
+18 Mar 2020 12:15:44,527  INFO StartLogger - Initializing main logic for module : #16 of 42 Utils (actual: 7)
+18 Mar 2020 12:15:44,724  INFO StartLogger - Initializing main logic for module : #17 of 42 Historizable (actual: 22)
+18 Mar 2020 12:15:44,724  INFO StartLogger - Initializing main logic for module : #18 of 42 Reflection (actual: 3)
+18 Mar 2020 12:15:44,764  INFO StartLogger - Initializing main logic for module : #19 of 42 ProcessMonitor (actual: 20)
+18 Mar 2020 12:15:44,769  INFO StartLogger - Initializing main logic for module : #20 of 42 I18n (actual: 28)
+18 Mar 2020 12:15:44,770  INFO StartLogger - Initializing main logic for module : #21 of 42 Document (actual: 19)
+18 Mar 2020 12:15:44,805  INFO StartLogger - Initializing main logic for module : #22 of 42 Schedule (actual: 40)
+18 Mar 2020 12:15:44,834  INFO StartLogger - Initializing main logic for module : #23 of 42 Hierarchy (actual: 23)
+18 Mar 2020 12:15:44,835  INFO StartLogger - Initializing main logic for module : #24 of 42 Excel (actual: 24)
+18 Mar 2020 12:15:44,887  INFO StartLogger - Initializing main logic for module : #25 of 42 Fax (actual: 41)
+18 Mar 2020 12:15:45,148  INFO StartLogger - Initializing main logic for module : #26 of 42 Messenger (actual: 30)
+18 Mar 2020 12:15:45,149  INFO StartLogger - Initializing main logic for module : #28 of 42 Email (actual: 9)
+18 Mar 2020 12:15:45,148  INFO StartLogger - Initializing main logic for module : #27 of 42 SystemEvents (actual: 5)
+18 Mar 2020 12:15:45,205  INFO StartLogger - Initializing main logic for module : #29 of 42 Slack (actual: 38)
+18 Mar 2020 12:15:45,209  INFO StartLogger - Initializing main logic for module : #30 of 42 Skype (actual: 36)
+18 Mar 2020 12:15:45,299  INFO StartLogger - Initializing main logic for module : #31 of 42 Viber (actual: 35)
+18 Mar 2020 12:15:45,302  INFO StartLogger - Initializing main logic for module : #32 of 42 Telegram (actual: 31)
+18 Mar 2020 12:15:45,366  INFO StartLogger - Initializing main logic for module : #33 of 42 Security (actual: 10)
+18 Mar 2020 12:15:45,366  INFO StartLogger - Initializing main logic for module : #34 of 42 Word (actual: 8)
+18 Mar 2020 12:15:45,584  INFO StartLogger - Initializing main logic for module : #35 of 42 Service (actual: 11)
+18 Mar 2020 12:15:45,737  INFO StartLogger - Initializing main logic for module : #36 of 42 Profiler (actual: 25)
+18 Mar 2020 12:15:45,737  INFO StartLogger - Initializing main logic for module : #37 of 42 Scheduler (actual: 12)
+18 Mar 2020 12:15:45,737  INFO StartLogger - Initializing main logic for module : #38 of 42 SQLUtils (actual: 21)
+18 Mar 2020 12:15:45,737  INFO StartLogger - Initializing main logic for module : #39 of 42 Chat (actual: 27)
+18 Mar 2020 12:15:45,751  INFO StartLogger - Initializing main logic for module : #40 of 42 EvalScript (actual: 37)
+18 Mar 2020 12:15:45,918  INFO StartLogger - Initializing main logic for module : #41 of 42 SchedulerDefaultData (actual: 14)
+18 Mar 2020 12:15:45,928  INFO StartLogger - Initializing main logic for module : #42 of 42 Backup (actual: 15)
+18 Mar 2020 12:15:46,073  INFO StartLogger - Checking for duplicate elements
+18 Mar 2020 12:15:46,101  INFO StartLogger - Filling implicit cases
+18 Mar 2020 12:15:46,102  INFO StartLogger - Initializing abstract properties
+18 Mar 2020 12:15:46,106  INFO StartLogger - Finalizing abstract actions
+18 Mar 2020 12:15:46,199  INFO StartLogger - Checking abstract
+18 Mar 2020 12:15:46,203  INFO StartLogger - Initializing class aggr props
+18 Mar 2020 12:15:46,228  INFO StartLogger - Initializing fields for data and materialized properties
+18 Mar 2020 12:15:46,233  INFO StartLogger - Looking for recursions in abstract actions / properties
+18 Mar 2020 12:15:46,277  INFO StartLogger - Setup property policy
+18 Mar 2020 12:15:46,277  INFO StartLogger - Finalizing navigator elements
+18 Mar 2020 12:15:46,278  INFO StartLogger - Setup drill-down
+18 Mar 2020 12:15:46,540  INFO StartLogger - Showing dependencies
+18 Mar 2020 12:15:46,544  INFO StartLogger - Setup action policy
+18 Mar 2020 12:15:46,544  INFO StartLogger - Initializing reflection events
+18 Mar 2020 12:15:46,544  INFO StartLogger - Initializing indices
+18 Mar 2020 12:15:47,823  INFO StartLogger - Setting user logging for properties
+18 Mar 2020 12:15:47,855  INFO StartLogger - Setting user not null constraints for properties
+18 Mar 2020 12:15:47,860  INFO StartLogger - Setup loggables
+18 Mar 2020 12:15:47,860  INFO StartLogger - Initializing class data indexes
+18 Mar 2020 12:15:47,861  INFO StartLogger - Finalizing forms
+18 Mar 2020 12:15:47,862  INFO StartLogger - Building property list
+18 Mar 2020 12:15:47,896  INFO StartLogger - Finalizing properties
+18 Mar 2020 12:15:48,543  INFO StartLogger - Initializing actions' debugger
+18 Mar 2020 12:15:48,544  INFO StartLogger - Synchronizing DB
+18 Mar 2020 12:15:48,627  INFO StartLogger - Checking indices
+18 Mar 2020 12:15:48,627  INFO StartLogger - Applying migration script (0.0 -> 0.0)
+18 Mar 2020 12:15:48,726  INFO StartLogger - Creating tables
+18 Mar 2020 12:15:48,766  INFO StartLogger - column Main_name_Team (Название команды) is transferred from table _auto_Main_Team to table Main_Team ...
+18 Mar 2020 12:15:48,788  INFO StartLogger - Done
+18 Mar 2020 12:15:48,805  INFO StartLogger - objects are transferred from tables (_auto_Main_Team) to table Main_Team ...
+18 Mar 2020 12:15:48,815  INFO StartLogger - objects are removed from table _auto_Main_Team ...
+18 Mar 2020 12:15:48,819  INFO StartLogger - Dropping column System__CLASS__auto_Main_Team from table _auto_Main_Team
+18 Mar 2020 12:15:48,823  INFO StartLogger - Dropping column Main_name_Team from table _auto_Main_Team
+18 Mar 2020 12:15:48,827  INFO StartLogger - Table _auto_Main_Team has been dropped
+18 Mar 2020 12:15:48,827  INFO StartLogger - Packing tables
+18 Mar 2020 12:15:48,827  INFO StartLogger - Adding indices
+18 Mar 2020 12:15:48,828  INFO StartLogger - Filling static objects ids
+18 Mar 2020 12:15:49,195  INFO StartLogger - Updating stats
+18 Mar 2020 12:15:49,250  INFO StartLogger - Writing static objects changes
+18 Mar 2020 12:15:49,589  INFO StartLogger - Migrating reflection properties and actions
+18 Mar 2020 12:15:49,639  INFO StartLogger - Recalculating aggregations
+18 Mar 2020 12:15:49,643  INFO StartLogger - Update Aggregation Stats started: Main_Team
+18 Mar 2020 12:15:50,606  INFO StartLogger - Update Aggregation Stats: Main_Team, 966ms
+18 Mar 2020 12:15:50,947  INFO StartLogger - Initializing Security Manager.
+18 Mar 2020 12:15:51,196  INFO StartLogger - Starting Security Manager.
+18 Mar 2020 12:15:51,227  INFO StartLogger - Starting RMI Manager
+18 Mar 2020 12:15:51,280  INFO StartLogger - Executing onStarted action
+18 Mar 2020 12:15:52,051  INFO StartLogger - Starting Scheduler
+18 Mar 2020 12:15:52,610  INFO StartLogger - Exporting RMI Logics object (port: 7652)
+18 Mar 2020 12:15:52,657  INFO StartLogger - Prereading caches for properties
+18 Mar 2020 12:15:52,657  INFO StartLogger - Prereading properties graph
+18 Mar 2020 12:15:52,657  INFO StartLogger - Reading modules hash
+18 Mar 2020 12:15:52,661  INFO StartLogger - Prereading caches for properties ended
+18 Mar 2020 12:15:52,662  INFO StartLogger - Comparing modulesHash: old 1b65dfa, new a281b9e3
+18 Mar 2020 12:15:52,663  INFO StartLogger - Synchronizing property entities
+18 Mar 2020 12:15:52,664  INFO StartLogger - Synchronizing forms
+18 Mar 2020 12:15:52,664  INFO StartLogger - Synchronizing group properties
+18 Mar 2020 12:15:52,664  INFO StartLogger - Synchronizing tables
+18 Mar 2020 12:15:52,664  INFO StartLogger - Synchronizing property parents
+18 Mar 2020 12:15:52,664  INFO StartLogger - synchronizeTables collecting data started
+18 Mar 2020 12:15:52,665  INFO StartLogger - Synchronizing navigator elements
+18 Mar 2020 12:15:52,669  INFO StartLogger - Synchronizing group objects
+18 Mar 2020 12:15:52,669  INFO StartLogger - Synchronizing parents
+18 Mar 2020 12:15:52,669  INFO StartLogger - synchronizeTables integration service started
+18 Mar 2020 12:15:52,669  INFO StartLogger - Synchronizing property draws
+18 Mar 2020 12:15:58,650  INFO StartLogger - synchronizeTables finished
+18 Mar 2020 12:15:58,651  INFO StartLogger - Recalculating Stats at first start
+18 Mar 2020 12:15:58,651  INFO StartLogger - Writing modules hash
+18 Mar 2020 12:15:58,651  INFO StartLogger - Writing modulesHash a281b9e3
+18 Mar 2020 12:15:58,697  INFO StartLogger - Writing modulesHash finished successfully
+18 Mar 2020 12:15:58,701  INFO StartLogger - Obsolete caches were successfully cleaned
+18 Mar 2020 12:15:58,702  INFO StartLogger - Logics instance has successfully started
+18 Mar 2020 12:15:58,702  INFO StartLogger - Desktop Client is available at:
+18 Mar 2020 12:15:58,703  INFO StartLogger - Java Web Start (with auto update, requires JDK): https://download.lsfusion.org/java/lsfusion-client-3.0.jnlp
+18 Mar 2020 12:15:58,703  INFO StartLogger - Server has successfully started in 18520 ms.

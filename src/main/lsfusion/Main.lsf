@@ -35,12 +35,39 @@ FORM dialogTeam 'Команда'
  
 CONSTRAINT NOT name(Team t) AND t IS Team MESSAGE 'Название команды должно быть заполнено';
 
+// справочник контрактов
+CLASS Contract 'Контракт';
+TABLE contract (Contract);
+
+numContract '№ контракта' = DATA STRING[30] (Contract) IN base;
+dateFrom 'Дата заключения контракта' = DATA DATE (Contract);
+dateTo 'Дата окончания контракта' =  DATA DATE (Contract);
+
+CONSTRAINT dateTo(Contract c) <= dateFrom(c) AND c IS Contract MESSAGE 'Дата окончания контракта не может быть меньше даты заключения ';
+CONSTRAINT NOT dateFrom(c) AND c IS Contract MESSAGE 'Дата заключения контракта должна быть заполнена';
+
+teamContract 'команда' = DATA Team (Contract) IN base ;
+nameTeamContract 'Название команды' (Contract c) = name(teamContract(c)) NONULL;
+
+FORM contract 'Констракт'   // форма для редактирования Контракта, имеется инструкция EDIT
+    OBJECTS c = Contract PANEL
+    PROPERTIES(c) numContract, dateFrom, dateTo, nameTeamContract
+    
+    EDIT Contract OBJECT c
+;
+
+FORM contracts 'Констракты'    // форма - справочник Констракты
+    OBJECTS c = Contract
+    PROPERTIES(c) READONLY numContract, dateFrom, dateTo, nameTeamContract
+    PROPERTIES(c) NEWSESSION NEW, EDIT, DELETE
+;
+
 // Классы игроков - можно определить заранее для использования
 CLASS ClassPlayer 'Класс игрока' {
-    goalkeeper  'Вратарь',
-    forward     'НаподдаЮщий',
-    midfielder  'Полузащитник',
-    defender    'Защитник'
+      goalkeeper  'Вратарь',
+      forward     'НаподдаЮщий',
+      midfielder  'Полузащитник',
+      defender    'Защитник'
 }
 
 // Справочник игроков
@@ -53,9 +80,10 @@ nameClassPlayer 'Класс игрока' (Player pl) = staticCaption(classPlaye
 dateBoth 'Дата рождения'  = DATA DATE (Player);
 agePlayer 'Возраст игрока' (Player pl) = currentYear() (-) extractYear(dateBoth(pl));
 
+
 FORM player 'Игрок'   // форма для редактирования игрока, имеется инструкция EDIT
     OBJECTS p = Player PANEL
-    PROPERTIES(p) namePlayer, nameClassPlayer, dateBoth
+    PROPERTIES(p) namePlayer, nameClassPlayer, dateBoth, agePlayer READONLY 
     
     EDIT Player OBJECT p
 ;
@@ -65,6 +93,14 @@ FORM players 'Игроки'    // форма - справочник игроко
     PROPERTIES(p) READONLY namePlayer, nameClassPlayer, dateBoth, agePlayer
     PROPERTIES(p) NEWSESSION NEW, EDIT, DELETE
 ;
+
+//
+playerContract 'игрок' = DATA Player (Contract) IN base ;
+namePlayerContract 'Игрок' (Contract c) = namePlayer(playerContract(c)) NONULL;
+
+EXTEND FORM contract PROPERTIES (c) namePlayerContract;
+EXTEND FORM contracts PROPERTIES (c) namePlayerContract;
+
 
 // Игра
 CLASS Game 'Игра';
@@ -164,6 +200,7 @@ NAVIGATOR {
     masterData{
     NEW Teams FIRST;
     NEW players BEFORE regionalData;
+    NEW contracts BEFORE regionalData;
     }
     NEW MainForm FIRST;
        

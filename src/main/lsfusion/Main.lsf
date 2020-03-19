@@ -2,15 +2,16 @@ MODULE Main;
 
 //Убрал комментарий
 
-REQUIRE MasterData, System;
+REQUIRE MasterData, System, Time;
 
+// Справочник команд
 CLASS Team 'Команда';
 
 name 'Название команды' = DATA STRING[30] (Team) IN base NONULL;
 
 TABLE Team (Team);
 
-FORM Team 'Команда'
+FORM Team 'Команда'     // форма для редактирования команды, имеется инструкция EDIT
     OBJECTS t = Team PANEL
     PROPERTIES(t) name
     
@@ -34,6 +35,38 @@ FORM dialogTeam 'Команда'
  
 CONSTRAINT NOT name(Team t) AND t IS Team MESSAGE 'Название команды должно быть заполнено';
 
+// Классы игроков - можно определить заранее для использования
+CLASS ClassPlayer 'Класс игрока' {
+    goalkeeper  'Вратарь',
+    forward     'НаподдаЮщий',
+    midfielder  'Полузащитник',
+    defender    'Защитник'
+}
+
+// Справочник игроков
+CLASS Player 'Игрок';
+TABLE player (Player);
+
+namePlayer 'ФИО игрока' = DATA STRING[30] (Player) IN base NONULL;
+classPlayer 'Класс игрока' = DATA ClassPlayer (Player);
+nameClassPlayer 'Класс игрока' (Player pl) = staticCaption(classPlayer(pl)) CHARWIDTH 15;    //  staticCaption - название свойства из ClassPlayer 'Класс игрока'
+dateBoth 'Дата рождения'  = DATA DATE (Player);
+agePlayer 'Возраст игрока' (Player pl) = currentYear() (-) extractYear(dateBoth(pl));
+
+FORM player 'Игрок'   // форма для редактирования игрока, имеется инструкция EDIT
+    OBJECTS p = Player PANEL
+    PROPERTIES(p) namePlayer, nameClassPlayer, dateBoth
+    
+    EDIT Player OBJECT p
+;
+
+FORM players 'Игроки'    // форма - справочник игроков
+    OBJECTS p = Player
+    PROPERTIES(p) READONLY namePlayer, nameClassPlayer, dateBoth, agePlayer
+    PROPERTIES(p) NEWSESSION NEW, EDIT, DELETE
+;
+
+// Игра
 CLASS Game 'Игра';
 
 date 'Дата' = DATA DATE (Game);
@@ -130,6 +163,7 @@ FORM MainFormSingle 'Турнирная таблица'
 NAVIGATOR {
     masterData{
     NEW Teams FIRST;
+    NEW players BEFORE regionalData;
     }
     NEW MainForm FIRST;
        
